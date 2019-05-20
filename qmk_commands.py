@@ -20,7 +20,7 @@ DISCORD_WEBHOOK_INFO_URL = os.environ.get('DISCORD_WEBHOOK_INFO_URL', DISCORD_WE
 DISCORD_WEBHOOK_WARNING_URL = os.environ.get('DISCORD_WEBHOOK_WARNING_URL', DISCORD_WEBHOOK_URL)
 DISCORD_WEBHOOK_ERROR_URL = os.environ.get('DISCORD_WEBHOOK_ERROR_URL', DISCORD_WEBHOOK_URL)
 QMK_GIT_BRANCH = os.environ.get('GIT_BRANCH', 'master')
-QMK_GIT_URL = os.environ.get('QMK_GIT_URL', 'https://github.com/qmk/qmk_firmware.git')
+QMK_GIT_URL = os.environ.get('QMK_GIT_URL', 'https://github.com/yulei/qmk_firmware.git')
 ZIP_EXCLUDES = {
     'qmk_firmware': ('qmk_firmware/.build/*', 'qmk_firmware/.git/*', 'qmk_firmware/lib/chibios/.git', 'qmk_firmware/lib/chibios-contrib/.git'),
     'chibios': ('chibios/.git/*'),
